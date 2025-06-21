@@ -1,0 +1,2 @@
+# This file keeps the output directory in git
+# The actual output files (*.pth, *.png, *.log) are ignored by .gitignore 
