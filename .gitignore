@@ -89,7 +89,7 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-data/MNIST/raw/*.gz
+data/MNIST/*
 *.log
 output/*.png
 output/*.pth
