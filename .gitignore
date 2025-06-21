@@ -88,11 +88,18 @@ dmypy.json
 ehthumbs.db
 Thumbs.db
 
-# Project specific
-data/MNIST/*
+# Project specific - MNIST data files
+data/MNIST/raw/*.gz
+data/MNIST/raw/t10k-images-idx3-ubyte
+data/MNIST/raw/t10k-labels-idx1-ubyte
+data/MNIST/raw/train-images-idx3-ubyte
+data/MNIST/raw/train-labels-idx1-ubyte
+
+# Logs and output files
 *.log
 output/*.png
 output/*.pth
+output/*.pt
 
 # Keep output directory structure but ignore large files
 !output/
